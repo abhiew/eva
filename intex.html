@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Automatic Slideshow with Cards</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    .slideshow-container {
+      max-width: 100%;
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .mySlides {
+      display: none;
+      padding: 20px;
+      text-align: center;
+      max-width: 100%;
+      max-height: 100%;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+
+<div class="slideshow-container">
+  <div class="mySlides">
+    <img src="./Freshers day Flex.jpg" alt="Image 1">
+  </div>
+  <div class="mySlides">
+    <img src="./IMG-20231104-WA0013.jpg" alt="Image 1">
+  </div>
+̥ <!-- Add other images similarly -->
+</div>
+
+<script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let i;
+    const slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1 }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 10000); // Change image every 2 seconds̥
+  }
+</script>
+
+</body>
+</html>
