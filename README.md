@@ -1,4 +1,4 @@
-As part of our project under the Innovation and Entrepreneurship Development Cell (IEDC) at UKFCET, we have developed a humanoid robot to showcase the capabilities of our AI chatbot, EVA. Our team consists of five members, each contributing to different aspects of the development.
+As part of our project under the Innovation and Entrepreneurship Development Cell (IEDC) at UKFCET, we have developed a humanoid robot to showcase the capabilities of our AI chatbot, EVA. Our team consists of ten members, each contributing to different aspects of the development.
 
 EVA is an AI chatbot similar to Alexa or Siri, capable of performing a variety of tasks. The software is installed within the humanoid robot, allowing it to demonstrate these functionalities to the public. Our team members actively participated in presenting the robot, engaging with the audience to highlight its interactive features.
 
