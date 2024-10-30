@@ -10,5 +10,5 @@ This project represents our effort to combine software engineering with robotics
 
 ![IMG-20241030-WA0043](https://github.com/user-attachments/assets/28f43df2-3b1a-4ea5-9244-4b1901dc0745)
 
-![IMG-20241030-WA0045](https://github.com/user-attachments/assets/9ab503de-7b05-4988-af08-96bc4f9c65be)
+
 
